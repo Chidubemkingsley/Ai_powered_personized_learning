@@ -3,12 +3,12 @@ function startAssessment(assessmentTitle) {
     // Additional logic to determine the URL based on the assessment title
     let url;
     if (assessmentTitle === 'Quiz: Introduction to Math') {
-        url = 'quiz_math.html'; // Replace with the URL of your quiz page
+        file:///C:/Users/USER/bash/bash/index.html = 'quiz_math.html'; //  the URL of your quiz page
     } else if (assessmentTitle === 'Test: Multiplication') {
-        url = 'test_multiplication.html'; // Replace with the URL of your test page
+       file:///C:/Users/USER/bash/bash/index.html = 'test_multiplication.html'; //  the URL of your test page
     } else {
         // Default URL if the assessment title is not recognized
-        url = 'default_page.html'; // Replace with the URL of your default page
+        file:///C:/Users/USER/bash/bash/index.html = 'default_page.html'; // the URL of your default page
     }
     
     // Navigate to the URL
