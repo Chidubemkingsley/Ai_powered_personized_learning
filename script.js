@@ -1,23 +1,16 @@
-function saveInfo() {
-  const studentName = document.getElementById('studentName').value;
-  const gradeLevel = document.getElementById('gradeLevel').value;
-  localStorage.setItem('studentName', studentName);
-  localStorage.setItem('gradeLevel', gradeLevel);
-  document.getElementById('displayStudentName').textContent = studentName;
-}
-
-function submitAnswers() {
-  const answer1 = document.getElementById('answer1').value;
-  const answer2 = document.getElementById('answer2').value;
-  const answer3 = document.getElementById('answer3').value;
-  // Here you can implement logic to assess the answers and provide feedback
-  alert('Answers submitted successfully!');
+// Function to start a quiz or test
+function startAssessment(assessmentTitle) {
+    alert(`Starting ${assessmentTitle}...`);
+    // Additional logic to start the assessment can be added here
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  const studentName = localStorage.getItem('studentName');
-  if (studentName) {
-    document.getElementById('displayStudentName').textContent = studentName;
-  }
+    const assessmentButtons = document.querySelectorAll('#assessment .assessment-item button');
+    assessmentButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const assessmentTitle = this.parentNode.querySelector('h3').textContent;
+            startAssessment(assessmentTitle);
+        });
+    });
 });
 
