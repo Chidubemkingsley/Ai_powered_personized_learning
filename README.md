@@ -1,6 +1,6 @@
 # Personalized Learning and Assessment
 
-This project provides a platform for personalized learning and assessment for students. It includes structured learning materials and assessments, as well as TensorFlow.js integration for machine learning tasks and also this is a fullstack project for a personalized learning and assessment tool, designed to provide support to students using AI-powered features. It allows students to enter their information, complete an assessment, and receive personalized feedback.
+This project provides an online website platform  for personalized learning and assessment for students. It includes structured learning materials and assessments, and also this is a fullstack project for a personalized learning and assessment tool, designed to provide support to students using AI-powered features. It allows students to enter their information, complete an assessment, and receive personalized feedback.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project provides a platform for personalized learning and assessment for st
    1. HTML
    2. CSS
    3. JAVASCRIPT
-   4. TENSORFLOW.JS
+   
 
 ## Usage
 
@@ -29,7 +29,7 @@ personalized-learning-and-assessment/
 ├── index.html # Main HTML file for the project
 ├── styles.css # CSS styles for the HTML file
 ├── script.js # JavaScript code for front-end functionality
-└── tensorflow.js # TensorFlow.js code for machine learning tasks
+
 
 
 ## Contributors
@@ -37,13 +37,13 @@ TEAM BETA
 1.Rubeluchukwuisi Chidubem Kingsley
 2. Ita victor
 
-## Machine Learning Integration
-
-The project incorporates TensorFlow.js for machine learning tasks. The `tensorflow.js` file contains code to create and train a simple linear regression model using TensorFlow.js. The trained model can be used for various tasks such as prediction or assessment.
 
 ## Contributing
 
 Contributions are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+
+## ACKNOWLEDGEMENT
+ A big thanks [BlockchainUNN]
 
 ## License
 
